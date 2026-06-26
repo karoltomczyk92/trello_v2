@@ -1,0 +1,8 @@
+name: trello_v2
+variables:
+  - name: trello_username_col
+    value: karol49
+  - name: trello_api_key
+    value: 149345517526d113b7114bfab56e3038
+  - name: trello_api_token
+    value: ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41

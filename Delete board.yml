@@ -1,0 +1,25 @@
+info:
+  name: Delete board
+  type: http
+  seq: 2
+
+http:
+  method: DELETE
+  url: https://api.trello.com/1/boards/:id/?key={{trello_api_key}}&token={{trello_api_token}}
+  params:
+    - name: key
+      value: "{{trello_api_key}}"
+      type: query
+    - name: token
+      value: "{{trello_api_token}}"
+      type: query
+    - name: id
+      value: "{{board_id}}"
+      type: path
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

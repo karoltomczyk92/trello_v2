@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Create new board" file="Create new board.yml" errors="0" failures="0" skipped="0" tests="1" timestamp="2026-06-26T12:01:03.409" hostname="GR4-0015926" time="1.232">
+    <testcase name="res.body.name eq nowyBoard" status="pass" classname="https://api.trello.com/1/boards/?name=nowyBoard&amp;key=149345517526d113b7114bfab56e3038&amp;token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41" time="1.232"/>
+  </testsuite>
+  <testsuite name="Delete board" file="Delete board.yml" errors="0" failures="0" skipped="0" tests="0" timestamp="2026-06-26T12:01:03.412" hostname="GR4-0015926" time="1.093"/>
+  <testsuite name="Get deleted board" file="Get deleted board.yml" errors="0" failures="0" skipped="0" tests="1" timestamp="2026-06-26T12:01:03.412" hostname="GR4-0015926" time="0.655">
+    <testcase name="res.status eq 404" status="pass" classname="https://api.trello.com/1/boards/6a3e69fd05bd8ada450fb65b/?key=149345517526d113b7114bfab56e3038&amp;token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41" time="0.655"/>
+  </testsuite>
+</testsuites>

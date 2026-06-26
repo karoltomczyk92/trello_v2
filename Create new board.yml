@@ -1,0 +1,40 @@
+info:
+  name: Create new board
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: https://api.trello.com/1/boards/?name=nowyBoard&key={{trello_api_key}}&token={{trello_api_token}}
+  params:
+    - name: name
+      value: nowyBoard
+      type: query
+    - name: key
+      value: "{{trello_api_key}}"
+      type: query
+    - name: token
+      value: "{{trello_api_token}}"
+      type: query
+  auth: inherit
+
+runtime:
+  assertions:
+    - expression: res.body.name
+      operator: eq
+      value: nowyBoard
+  actions:
+    - type: set-variable
+      phase: after-response
+      selector:
+        expression: res.body.id
+        method: jsonq
+      variable:
+        name: board_id
+        scope: runtime
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

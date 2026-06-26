@@ -1,0 +1,391 @@
+[
+  {
+    "iterationIndex": 0,
+    "results": [
+      {
+        "test": {
+          "filename": "Create new board.yml"
+        },
+        "request": {
+          "method": "POST",
+          "url": "https://api.trello.com/1/boards/?name=nowyBoard&key=149345517526d113b7114bfab56e3038&token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41",
+          "headers": {
+            "content-type": null
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "1672",
+            "connection": "close",
+            "date": "Fri, 26 Jun 2026 12:01:01 GMT",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "x-dns-prefetch-control": "off",
+            "x-download-options": "noopen",
+            "x-frame-options": "DENY",
+            "x-permitted-cross-domain-policies": "none",
+            "surrogate-control": "no-store",
+            "cache-control": "max-age=0, must-revalidate, no-cache, no-store",
+            "expires": "Thu, 01 Jan 1970 00:00:00",
+            "x-trello-version": "1.469807.0",
+            "x-trello-environment": "Production",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, PUT, POST, DELETE",
+            "access-control-allow-headers": "Authorization, Accept, Content-Type",
+            "access-control-expose-headers": "x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining, retry-after",
+            "x-rate-limit-api-token-interval-ms": "10000",
+            "x-rate-limit-api-token-max": "100",
+            "x-rate-limit-api-token-remaining": "99",
+            "x-rate-limit-db-query-time-interval-ms": "600000",
+            "x-rate-limit-db-query-time-max": "7200000",
+            "x-rate-limit-db-query-time-remaining": "7199990",
+            "x-rate-limit-api-key-interval-ms": "10000",
+            "x-rate-limit-api-key-max": "300",
+            "x-rate-limit-api-key-remaining": "299",
+            "x-rate-limit-member-interval-ms": "10000",
+            "x-rate-limit-member-max": "375",
+            "x-rate-limit-member-remaining": "374",
+            "x-server-time": "1782475261423",
+            "server": "AtlassianEdge",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "atl-traceid": "77a9aa3d9ffb4c059946d8182e5885a6",
+            "atl-request-id": "77a9aa3d-9ffb-4c05-9946-d8182e5885a6",
+            "strict-transport-security": "max-age=63072000; preload",
+            "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+            "nel": "{\"failure_fraction\": 0.01, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 3964640e0d939153c8e70773075c0788.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "WAW51-P6",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "x-amz-cf-id": "SJqhQ0Vt03xteg_4k9zEhVs3TK3X8hhZExdcMqxGBZxAodPp_BGUlw==",
+            "server-timing": "cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=1,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=603,atl-edge;dur=583,atl-edge-internal;dur=7,atl-edge-upstream;dur=578,atl-edge-pop;desc=\"aws-eu-central-1\",cdn-cache-miss,cdn-pop;desc=\"WAW51-P6\",cdn-rid;desc=\"SJqhQ0Vt03xteg_4k9zEhVs3TK3X8hhZExdcMqxGBZxAodPp_BGUlw==\",cdn-downstream-fbl;dur=613"
+          },
+          "data": {
+            "id": "6a3e69fd05bd8ada450fb65b",
+            "name": "nowyBoard",
+            "desc": "",
+            "descData": null,
+            "closed": false,
+            "idOrganization": "6a3ce7450e37160de15cbc5e",
+            "idEnterprise": null,
+            "pinned": false,
+            "url": "https://trello.com/b/fUK3tPKd/nowyboard",
+            "shortUrl": "https://trello.com/b/fUK3tPKd",
+            "prefs": {
+              "permissionLevel": "private",
+              "hideVotes": false,
+              "voting": "disabled",
+              "comments": "members",
+              "invitations": "members",
+              "selfJoin": true,
+              "cardCovers": true,
+              "showCompleteStatus": true,
+              "cardCounts": false,
+              "isTemplate": false,
+              "cardAging": "regular",
+              "calendarFeedEnabled": false,
+              "hiddenPluginBoardButtons": [],
+              "switcherViews": [
+                {
+                  "viewType": "Board",
+                  "enabled": true
+                },
+                {
+                  "viewType": "Table",
+                  "enabled": true
+                },
+                {
+                  "viewType": "Calendar",
+                  "enabled": false
+                },
+                {
+                  "viewType": "Dashboard",
+                  "enabled": false
+                },
+                {
+                  "viewType": "Timeline",
+                  "enabled": false
+                },
+                {
+                  "viewType": "Map",
+                  "enabled": false
+                }
+              ],
+              "autoArchive": null,
+              "background": "blue",
+              "backgroundColor": "#0079BF",
+              "backgroundDarkColor": null,
+              "backgroundImage": null,
+              "backgroundDarkImage": null,
+              "backgroundImageScaled": null,
+              "backgroundTile": false,
+              "backgroundBrightness": "dark",
+              "sharedSourceUrl": null,
+              "backgroundBottomColor": "#0079BF",
+              "backgroundTopColor": "#0079BF",
+              "canBePublic": true,
+              "canBeEnterprise": true,
+              "canBeOrg": true,
+              "canBePrivate": true,
+              "canInvite": true
+            },
+            "labelNames": {
+              "green": "",
+              "yellow": "",
+              "orange": "",
+              "red": "",
+              "purple": "",
+              "blue": "",
+              "sky": "",
+              "lime": "",
+              "pink": "",
+              "black": "",
+              "green_dark": "",
+              "yellow_dark": "",
+              "orange_dark": "",
+              "red_dark": "",
+              "purple_dark": "",
+              "blue_dark": "",
+              "sky_dark": "",
+              "lime_dark": "",
+              "pink_dark": "",
+              "black_dark": "",
+              "green_light": "",
+              "yellow_light": "",
+              "orange_light": "",
+              "red_light": "",
+              "purple_light": "",
+              "blue_light": "",
+              "sky_light": "",
+              "lime_light": "",
+              "pink_light": "",
+              "black_light": ""
+            },
+            "limits": {}
+          },
+          "url": "https://api.trello.com/1/boards/?name=nowyBoard&key=149345517526d113b7114bfab56e3038&token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41",
+          "responseTime": 1119,
+          "duration": 1119,
+          "size": 1672
+        },
+        "error": null,
+        "status": "pass",
+        "assertionResults": [
+          {
+            "uid": "KwnUuW6ljc4a7LVEKSSAO",
+            "lhsExpr": "res.body.name",
+            "rhsExpr": "eq nowyBoard",
+            "rhsOperand": "nowyBoard",
+            "operator": "eq",
+            "status": "pass"
+          }
+        ],
+        "testResults": [],
+        "preRequestTestResults": [],
+        "postResponseTestResults": [],
+        "shouldStopRunnerExecution": false,
+        "runDuration": 1.2320129,
+        "name": "Create new board",
+        "suitename": "C:\\Users\\ktomczyk\\Documents\\bruno\\Sample API Collection\\Create new board",
+        "path": "Create new board.yml",
+        "iterationIndex": 0
+      },
+      {
+        "test": {
+          "filename": "Delete board.yml"
+        },
+        "request": {
+          "method": "DELETE",
+          "url": "https://api.trello.com/1/boards/6a3e69fd05bd8ada450fb65b/?key=149345517526d113b7114bfab56e3038&token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41",
+          "headers": {
+            "content-type": null
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "16",
+            "connection": "close",
+            "date": "Fri, 26 Jun 2026 12:01:02 GMT",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "x-dns-prefetch-control": "off",
+            "x-download-options": "noopen",
+            "x-frame-options": "DENY",
+            "x-permitted-cross-domain-policies": "none",
+            "surrogate-control": "no-store",
+            "cache-control": "max-age=0, must-revalidate, no-cache, no-store",
+            "expires": "Thu, 01 Jan 1970 00:00:00",
+            "x-trello-version": "1.469807.0",
+            "x-trello-environment": "Production",
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, PUT, POST, DELETE",
+            "access-control-allow-headers": "Authorization, Accept, Content-Type",
+            "access-control-expose-headers": "x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining, retry-after",
+            "x-rate-limit-api-token-interval-ms": "10000",
+            "x-rate-limit-api-token-max": "100",
+            "x-rate-limit-api-token-remaining": "98",
+            "x-rate-limit-db-query-time-interval-ms": "600000",
+            "x-rate-limit-db-query-time-max": "7200000",
+            "x-rate-limit-db-query-time-remaining": "7199990",
+            "x-rate-limit-api-key-interval-ms": "10000",
+            "x-rate-limit-api-key-max": "300",
+            "x-rate-limit-api-key-remaining": "298",
+            "x-rate-limit-member-interval-ms": "10000",
+            "x-rate-limit-member-max": "375",
+            "x-rate-limit-member-remaining": "373",
+            "x-server-time": "1782475262830",
+            "server": "AtlassianEdge",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "atl-traceid": "0c65c034dcd04239bf8fdfe098c738e0",
+            "atl-request-id": "0c65c034-dcd0-4239-bf8f-dfe098c738e0",
+            "strict-transport-security": "max-age=63072000; preload",
+            "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+            "nel": "{\"failure_fraction\": 0.01, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 12b4a2004343b303d79fce214d81ea1c.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "WAW51-P6",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "x-amz-cf-id": "Yy8C0tz7yrcdxDTZm-FJesOeDue5Up_bm8jEPqwQM6Wur9TYtcqaYw==",
+            "server-timing": "cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=954,atl-edge;dur=934,atl-edge-internal;dur=7,atl-edge-upstream;dur=928,atl-edge-pop;desc=\"aws-eu-central-1\",cdn-cache-miss,cdn-pop;desc=\"WAW51-P6\",cdn-rid;desc=\"Yy8C0tz7yrcdxDTZm-FJesOeDue5Up_bm8jEPqwQM6Wur9TYtcqaYw==\",cdn-downstream-fbl;dur=960"
+          },
+          "data": {
+            "_value": null
+          },
+          "url": "https://api.trello.com/1/boards/6a3e69fd05bd8ada450fb65b/?key=149345517526d113b7114bfab56e3038&token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41",
+          "responseTime": 1087,
+          "duration": 1087,
+          "size": 16
+        },
+        "error": null,
+        "status": "pass",
+        "assertionResults": [],
+        "testResults": [],
+        "preRequestTestResults": [],
+        "postResponseTestResults": [],
+        "shouldStopRunnerExecution": false,
+        "runDuration": 1.0927044,
+        "name": "Delete board",
+        "suitename": "C:\\Users\\ktomczyk\\Documents\\bruno\\Sample API Collection\\Delete board",
+        "path": "Delete board.yml",
+        "iterationIndex": 0
+      },
+      {
+        "test": {
+          "filename": "Get deleted board.yml"
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://api.trello.com/1/boards/6a3e69fd05bd8ada450fb65b/?key=149345517526d113b7114bfab56e3038&token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41",
+          "headers": {
+            "content-type": null
+          }
+        },
+        "response": {
+          "status": 404,
+          "statusText": "Not Found",
+          "headers": {
+            "content-type": "text/plain; charset=utf-8",
+            "content-length": "37",
+            "connection": "close",
+            "date": "Fri, 26 Jun 2026 12:01:03 GMT",
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "x-dns-prefetch-control": "off",
+            "x-download-options": "noopen",
+            "x-frame-options": "DENY",
+            "x-permitted-cross-domain-policies": "none",
+            "surrogate-control": "no-store",
+            "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+            "expires": "0",
+            "x-trello-version": "1.469807.0",
+            "x-trello-environment": "Production",
+            "set-cookie": [
+              "dsc=8aa7bcdb03c02d7ef872a0a788656e96f89aac34759102a0bccc073c0448ad1f; Path=/; Expires=Sun, 26 Jul 2026 12:01:03 GMT; Secure; SameSite=None"
+            ],
+            "access-control-allow-origin": "*",
+            "access-control-allow-methods": "GET, PUT, POST, DELETE",
+            "access-control-allow-headers": "Authorization, Accept, Content-Type",
+            "access-control-expose-headers": "x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining, retry-after",
+            "x-rate-limit-api-token-interval-ms": "10000",
+            "x-rate-limit-api-token-max": "100",
+            "x-rate-limit-api-token-remaining": "97",
+            "x-rate-limit-db-query-time-interval-ms": "600000",
+            "x-rate-limit-db-query-time-max": "7200000",
+            "x-rate-limit-db-query-time-remaining": "7199990",
+            "x-rate-limit-api-key-interval-ms": "10000",
+            "x-rate-limit-api-key-max": "300",
+            "x-rate-limit-api-key-remaining": "297",
+            "x-rate-limit-member-interval-ms": "10000",
+            "x-rate-limit-member-max": "375",
+            "x-rate-limit-member-remaining": "371",
+            "server": "AtlassianEdge",
+            "x-content-type-options": "nosniff",
+            "x-xss-protection": "1; mode=block",
+            "atl-traceid": "e55adb6f7d3344d8a59a8a69e1d9f6b0",
+            "atl-request-id": "e55adb6f-7d33-44d8-a59a-8a69e1d9f6b0",
+            "strict-transport-security": "max-age=63072000; preload",
+            "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+            "nel": "{\"failure_fraction\": 0.01, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+            "server-timing": "atl-edge;dur=171,atl-edge-internal;dur=8,atl-edge-upstream;dur=165,atl-edge-pop;desc=\"aws-eu-central-1\"",
+            "x-cache": "Error from cloudfront",
+            "via": "1.1 d9040b3a97fe796fa04ce2aae992466c.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "WAW51-P6",
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "x-amz-cf-id": "yyqsJPX42hcX7MV-BoowU6ka0usBeMzmX4-oJnvR0YnOuOG_j31oIw=="
+          },
+          "data": "The requested resource was not found.",
+          "url": "https://api.trello.com/1/boards/6a3e69fd05bd8ada450fb65b/?key=149345517526d113b7114bfab56e3038&token=ATTAc984a973463a3b2be88dda240acfd93f5deeebeb115f90856765fd40f9c90f238C281C41",
+          "responseTime": 645,
+          "duration": 645,
+          "size": 37
+        },
+        "error": null,
+        "status": "pass",
+        "assertionResults": [
+          {
+            "uid": "QUHdwwVoVzCXagk8B56LZ",
+            "lhsExpr": "res.status",
+            "rhsExpr": "eq 404",
+            "rhsOperand": "404",
+            "operator": "eq",
+            "status": "pass"
+          }
+        ],
+        "testResults": [],
+        "preRequestTestResults": [],
+        "postResponseTestResults": [],
+        "shouldStopRunnerExecution": false,
+        "runDuration": 0.6552832,
+        "name": "Get deleted board",
+        "suitename": "C:\\Users\\ktomczyk\\Documents\\bruno\\Sample API Collection\\Get deleted board",
+        "path": "Get deleted board.yml",
+        "iterationIndex": 0
+      }
+    ],
+    "summary": {
+      "totalRequests": 3,
+      "passedRequests": 3,
+      "failedRequests": 0,
+      "errorRequests": 0,
+      "skippedRequests": 0,
+      "skippedByBail": 0,
+      "totalAssertions": 2,
+      "passedAssertions": 2,
+      "failedAssertions": 0,
+      "totalTests": 0,
+      "passedTests": 0,
+      "failedTests": 0,
+      "totalPreRequestTests": 0,
+      "passedPreRequestTests": 0,
+      "failedPreRequestTests": 0,
+      "totalPostResponseTests": 0,
+      "passedPostResponseTests": 0,
+      "failedPostResponseTests": 0
+    }
+  }
+]
